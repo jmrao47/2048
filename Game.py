@@ -59,7 +59,7 @@ def get_high_score_file_path():
 
     return file_path
 
-def main():
+def play_game():
     board, screen, font = set_up_game()
 
     # Game loop
@@ -110,4 +110,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    play_game()
